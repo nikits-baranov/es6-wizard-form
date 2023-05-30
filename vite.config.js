@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 
+// https://vitejs.dev/config/
 export default defineConfig({
+	base: '/es6-wizard-form/',
 	build: {
-		base: '/es6-wizard-form/',
 		target: 'es2015',
 	},
 })

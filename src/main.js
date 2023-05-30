@@ -1,7 +1,7 @@
 import { useValidation } from './validation/validation.js'
-import header from './template/header'
-import base from './template/base'
-import footer from './template/footer'
+import header from './template/header.js'
+import base from './template/base.js'
+import footer from './template/footer.js'
 import './style.css'
 const { validateField } = useValidation()
 
